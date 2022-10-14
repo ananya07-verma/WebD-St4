@@ -1,0 +1,29 @@
+{
+  "posts": [
+    {
+      "name": "ananyaverma838@gmail.in",
+      "mobile": "7302065170",
+      "email": "ananyaverma838@gmail.in",
+      "password": "qwertyuio",
+      "id": 1
+    },
+    {
+      "name": "ananyaraj",
+      "mobile": "09876543345",
+      "email": "ananyaraj7@gmail.com",
+      "password": "asdfghj",
+      "id": 2
+    },
+    {
+      "name": "kbkljbhl",
+      "mobile": "3456",
+      "email": "abc@yahoo.in",
+      "password": "kljhkjhbk",
+      "id": 3
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

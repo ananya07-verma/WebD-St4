@@ -1,0 +1,54 @@
+/* .map-responsive{
+
+    overflow:hidden;
+
+    padding-bottom:56.25%;
+
+    position:relative;
+
+    height:0;
+
+}
+
+.map-responsive iframe{
+
+    left:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    position:absolute;
+
+}
+
+ iframe{width="600" ;height="450" ;frameborder="0"; border:0"; 
+
+allowfullscreen} */
+.head2 {
+    text-align: center;
+    text-shadow: 1ch;
+    background-color: darkgreen;
+    text-shadow: -1px 1px 10px rgba(0, 0, 0, 0.75);
+    margin-bottom: -2px;
+}
+
+.google-map-code iframe {
+
+
+    margin-top: 20rem;
+
+
+    left: 0;
+
+    top: 0;
+
+    height: 100%;
+
+    width: 100%;
+
+    position: absolute;
+
+}
