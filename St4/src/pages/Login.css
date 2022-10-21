@@ -7,15 +7,20 @@
     gap: 20px;
     height: 100vh;
     font-size: 12rem;
-    /* width: 100vh; */
+    width: 100%;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-    background-color: #f8f9fd;
+    /* background-color: #f8f9fd; */
+}
+
+#label {
+    font-family: fantasy;
+    color: black;
 }
 
 input[type="text"],
 input[type="password"] {
     height: 45px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    /* border: 1px solid rgba(0, 0, 0, 0.2); */
 }
 
 input[type="submit"] {
@@ -42,7 +47,7 @@ input[type="submit"]:hover {
 .login-form {
     background-color: white;
     padding: 2rem;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     width: 40rem;
     height: 35rem;
 
@@ -85,19 +90,26 @@ input[type="submit"]:hover {
 #res {
     font-size: 3rem;
     padding: 2rem;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     margin-top: 8rem;
     color: aquamarine
 }
 
 .app {
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
-    animation: gradient 3s ease infinite;
+    /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+    /* background-image: url('https://images7.alphacoders.com/362/362619.jpg'); */
+    background-size: 800% 800%;
+    /* animation: gradient 3s ease infinite; */
+}
+
+#page {
+    background-image: url('https://images7.alphacoders.com/362/362619.jpg');
+    background-size: cover;
 }
 
 .login-form {
     background-color: black;
+    opacity: 75%;
 }
 
 

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Navbar } from "react-bootstrap-v5";
 import ReactDOM from "react-dom";
 
 import "./Login.css";
@@ -76,10 +77,15 @@ function Login() {
     );
 
     return (
-        <div className="app">
-            <div className="login-form">
-                <div className="title">Login</div>
-                {isSubmitted ? <div id="res">User is successfully logged in</div> : renderForm}
+        <div id="page">
+            <Navbar />
+            <div className="app">
+                <h1 id="label">Login To view ur Bookings</h1>
+                <div className="login-form">
+
+                    <div className="title">Login</div>
+                    {isSubmitted ? <div id="res">User is successfully logged in</div> : renderForm}
+                </div>
             </div>
         </div>
     );

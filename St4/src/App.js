@@ -11,6 +11,8 @@ import Login from './pages/Login.js';
 import Footer from './components/Footer';
 import ContactUs from './pages/ContactUs';
 import Signup from './pages/Signup';
+import PostForm from './pages/PostForm'
+import AllPost from './pages/AllPost';
 // import UserDashboard from './pages/UserDashboard';
 
 
@@ -25,7 +27,8 @@ function App() {
         <Route exact path="/ContactUs" component={ContactUs} />
         <Route exact path="/Login" component={Login} />
         <Route exact path="/Signup" component={Signup} />
-
+        <Route exact path="/" component={PostForm} />
+        <Route exact path="/gallery" component={AllPost} />
       </div>
     </Router>
 

@@ -8,6 +8,7 @@ import "./Signup.css";
 // import Button from 'react-bootstrap';
 import { Modal } from 'react-bootstrap';
 //import JSONDATA from "./db.json";
+import signupvideo from '../pages/bg/signupvideo.mp4';
 
 
 const Signup = () => {
@@ -75,12 +76,15 @@ const Signup = () => {
     };
 
     return (
+
+
+
         <div className="outer">
             <div className="container">
                 <div className="row">
                     <div className="col-md-7">
                         {/* <div className=" signup" style={{ backgroundImage: "url(images/signup.jpg)" }}></div> */}
-                        <h1 className="form-label">Signup</h1>
+                        <h1 className="form-label">Guests Enrollment</h1>
                     </div>
                 </div>
                 <form class="px-md-2">
@@ -112,7 +116,7 @@ const Signup = () => {
                         />
                     </div>
                     <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Password</label>
+                        <label for="exampleFormControlInput1" class="form-label">Aadhar number</label>
                         <input type="password" class="form-control" id="exampleFormControlInput4"
                             value={formData.password}
                             onChange={(e) => setFormData({
@@ -126,9 +130,9 @@ const Signup = () => {
                     <button className="btn btn-success btn-lg mb-1" onClick={handleFormSubmit}>Submit</button>
 
                 </form>
-                <div>
-                    <h1 className="form-label"> UserDashboard</h1>
-                    <table class="table table-dark table-hover">
+                <div id="data">
+                    <h1 className="form-labell"> UserDashboard</h1>
+                    <table class="table table-striped">
                         <thead>
                             <tr>
                                 <th scope="col">ID</th>
@@ -205,7 +209,9 @@ const Signup = () => {
                 </Modal>
             </div>
 
-
+            {/* <video className='videoTag' autoPlay loop muted>
+                <source src={signupvideo} type='video/mp4' />
+            </video> */}
         </div>
     );
 };

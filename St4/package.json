@@ -12,10 +12,12 @@
     "json-server": "^0.17.0",
     "react": "^16.13.1",
     "react-bootstrap": "^2.5.0",
+    "react-bootstrap-v5": "^1.4.0",
     "react-dom": "^16.13.1",
     "react-hook-form": "^7.37.0",
     "react-router-dom": "^5.3.0",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "swiper": "^8.4.4"
   },
   "scripts": {
     "start": "react-scripts start",

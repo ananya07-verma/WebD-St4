@@ -17,12 +17,12 @@ class Home extends Component {
                     backgroundImage: `url(<iframe src="https://giphy.com/embed/zoKdmndB8QBR2c0gjy" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/salesforce-confetti-success-customer-zoKdmndB8QBR2c0gjy">via GIPHY</a></p>)`
                 }}></div> */}
 
-                <div>
+                {/* <div>
                     <video className='videoTag' autoPlay loop muted>
                         <source src={bgvideo} type='video/mp4' />
                     </video>
 
-                </div>
+                </div> */}
 
             </div>
         );

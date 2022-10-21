@@ -1,5 +1,6 @@
  .outer {
-     background-image: url('https://cdn.fansshare.com/image/wallpaperdesktop/the-wonder-city-abstract-wide-screen-wallpaper-hd-hd-wallpaper-abstract-wide-desktop-background-wallpapers-for-mobile-android-laptop-windows-mac-iphone-nature-background-full-screen-hd-602591119.jpg');
+     /* background-image: url('https://cdn.fansshare.com/image/wallpaperdesktop/the-wonder-city-abstract-wide-screen-wallpaper-hd-hd-wallpaper-abstract-wide-desktop-background-wallpapers-for-mobile-android-laptop-windows-mac-iphone-nature-background-full-screen-hd-602591119.jpg'); */
+     background-image: url('');
 
 
 
@@ -10,10 +11,26 @@
      background-repeat: y-axis;
      background-size: cover;
      image-rendering: pixelated;
+
  }
 
+ .container {
+     display: flex;
+     flex-direction: column;
+ }
+
+ /* #data{
+width:
+} */
+
  .form-label {
-     color: aqua
+     color: black;
+     width: 80;
+
+ }
+
+ .row {
+     opacity: 75%;
  }
 
  /* Header */
